@@ -6,7 +6,7 @@ import (
 )
 
 func TestTree(t *testing.T) {
-  tree := Tree{fn: hamming.Uint64}
+  tree := Tree{Fn: hamming.Uint64}
 
   tree.Add(8992787323816807617)
   tree.Add(3545795011398387613)
