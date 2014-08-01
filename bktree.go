@@ -1,4 +1,4 @@
-package tree
+package bktree
 
 type Distancer func(uint64, uint64) int
 
